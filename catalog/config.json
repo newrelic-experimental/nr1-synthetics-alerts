@@ -5,7 +5,7 @@
   "whatsNew": "",
   "support": {
     "email": {
-      "address": "opensource+nr1-synthetics-alerts@newrelic.com"
+      "address": "opensource+nr1-synthetics-alert-conditions@newrelic.com"
     },
     "issues": {
       "url": "https://github.com/newrelic-experimental/nr1-synthetics-alerts/issues"

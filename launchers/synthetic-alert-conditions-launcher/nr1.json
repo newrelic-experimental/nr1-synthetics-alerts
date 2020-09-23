@@ -1,7 +1,7 @@
 {
     "schemaType": "LAUNCHER",
     "id": "synthetic-alert-conditions-launcher",
-    "displayName": "Synthetic Condition Search Local",
+    "displayName": "Synthetics Alert Conditions",
     "description": "Search for Alert Conditions targeting your Synthetic Monitor Entitites",
-    "rootNerdletId": "synthetic-alert-conditions-nerdlet"
+    "rootNerdletId": "synthetics-alert-conditions-nerdlet"
 }
