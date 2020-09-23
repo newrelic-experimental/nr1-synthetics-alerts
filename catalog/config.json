@@ -1,17 +1,17 @@
 {
   "tagline": "Get Alert Conditions targetting your Synthetics Monitor",
   "details": "Without leaving the Monitor Entity you can fetch details on every Alert Condition that's targetting the Monitor, including Single Location, Multi-Location and NRQL Conditions!",
-  "repository": "",
+  "repository": "https://github.com/newrelic-experimental/nr1-synthetics-alerts",
   "whatsNew": "",
   "support": {
     "email": {
-      "address": "rdouglas@newrelic.com"
+      "address": "opensource+nr1-synthetics-alerts@newrelic.com"
     },
     "issues": {
-      "url": ""
+      "url": "https://github.com/newrelic-experimental/nr1-synthetics-alerts/issues"
     },
     "community": {
-      "url": ""
+      "url": "https://discuss.newrelic.com/t/relic-solution-just-dropped-in-to-see-what-conditions-my-synthetics-were-in/114182"
     }
   }
 }
