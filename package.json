@@ -4,7 +4,9 @@
     "version": "1.0.2",
     "scripts": {
         "start": "nr1 nerdpack:serve",
-        "test": "exit 0"
+        "test": "exit 0",
+        "eslint-check": "eslint nerdlets/",
+        "eslint-fix": "eslint nerdlets/ --fix"
     },
     "nr1": {
         "uuid": "c1f33789-c08e-46b2-ad89-50125c4e15f4"
@@ -23,6 +25,8 @@
     "devDependencies": {
         "@newrelic/eslint-plugin-newrelic": "^0.3.1",
         "eslint": "^7.9.0",
-        "prettier": "^2.1.2"
+        "prettier": "^2.1.2",
+        "@semantic-release/changelog": "^3.0.5",
+        "@semantic-release/git": "^7.0.18"
     }
 }
