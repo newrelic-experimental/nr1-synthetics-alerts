@@ -3,5 +3,5 @@
     "id": "synthetic-alert-conditions-launcher",
     "displayName": "Synthetics Alert Conditions",
     "description": "Search for Alert Conditions targeting your Synthetic Monitor Entitites",
-    "rootNerdletId": "synthetics-alert-conditions-nerdlet"
+    "rootNerdletId": "nr1-synthetics-alerts-nerdlet"
 }
