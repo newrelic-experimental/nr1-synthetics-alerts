@@ -198,7 +198,7 @@ export default class SyntheticAlertConditionsNerdlet extends React.Component {
         .then((jsondata) => {
           if (jsondata.synthetics_conditions.length > 0) {
             for (const condition of jsondata.synthetics_conditions) {
-              const region = _self.state.region === 'EU' ? '.eu' : null;
+              const region = _self.state.region === 'EU' ? '.eu' : '';
               condition.policy = policy;
               condition.type = 'Single';
               condition.entities = [];
@@ -257,7 +257,7 @@ export default class SyntheticAlertConditionsNerdlet extends React.Component {
           if (jsondata.location_failure_conditions.length > 0) {
             const allConditions = _self.state.allConditions;
             for (const condition of jsondata.location_failure_conditions) {
-              const region = _self.state.region === 'EU' ? '.eu' : null;
+              const region = _self.state.region === 'EU' ? '.eu' : '';
               condition.policy = policy;
               condition.type = 'Multi';
               const encoded = btoa(
@@ -416,7 +416,7 @@ export default class SyntheticAlertConditionsNerdlet extends React.Component {
       if (nrql[0]) {
         const filteredConditions = _self.state.filteredConditions;
         for (const condition of nrql) {
-          const region = _self.state.region === 'EU' ? '.eu' : null;
+          const region = _self.state.region === 'EU' ? '.eu' : '';
           condition.type = 'NRQL';
           condition.entities = [];
           const encoded = btoa(
@@ -477,7 +477,7 @@ export default class SyntheticAlertConditionsNerdlet extends React.Component {
       if (nrql[0]) {
         const filteredConditions = _self.state.filteredConditions;
         for (const condition of nrql) {
-          const region = _self.state.region === 'EU' ? '.eu' : null;
+          const region = _self.state.region === 'EU' ? '.eu' : '';
           condition.type = 'NRQL';
           condition.entities = [];
           const encoded = btoa(
@@ -537,7 +537,7 @@ export default class SyntheticAlertConditionsNerdlet extends React.Component {
         if (nrql[0]) {
           const filteredConditions = _self.state.filteredConditions;
           for (const condition of nrql) {
-            const region = _self.state.region === 'EU' ? '.eu' : null;
+            const region = _self.state.region === 'EU' ? '.eu' : '';
             condition.type = 'NRQL Facet';
             condition.facet = true;
             condition.entities = [];
@@ -600,7 +600,7 @@ export default class SyntheticAlertConditionsNerdlet extends React.Component {
         if (nrql[0]) {
           const filteredConditions = _self.state.filteredConditions;
           for (const condition of nrql) {
-            const region = _self.state.region === 'EU' ? '.eu' : null;
+            const region = _self.state.region === 'EU' ? '.eu' : '';
             condition.type = 'NRQL Facet';
             condition.entities = [];
             const encoded = btoa(
